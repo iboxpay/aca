@@ -1,6 +1,6 @@
 ## Android Code Quality
 
-This project integrates a combination of code analysis tools. Use for iBOXPAY android projects. fork from https://github.com/ribot/android-boilerplate/tree/master/config/quality
+This project integrates a combination of code analysis tools. Use for iBOXPAY Android projects. fork from https://github.com/ribot/android-boilerplate/tree/master/config/quality
 
 ### Code Analysis tools
 
@@ -35,17 +35,17 @@ To ensure that your code is valid and stable use check:
 ### How to use
 
 Clone this project into your project `$PROJECT/config/qulity`
-and modify `app/build.gradle`，add this line in the bollow：
+and modify `app/build.gradle`，add this line in the bottom：
 
 ```
 apply from: '../config/quality/quality.gradle'
 ```
 
-##### configure
+### Configure
 
 when use this config first time in old project, it will complains tons of  errors when compile, so you can turn off the error.
 
-modify `config/quality/quality.gradle`，set `ignoreFailures ` is `true`：
+modify `config/quality/quality.gradle`，and set `ignoreFailures ` to `true`：
 
 ```
 ignoreFailures = true
