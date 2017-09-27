@@ -51,3 +51,10 @@ modify `config/quality/quality.gradle`，and set `ignoreFailures ` to `true`：
 ignoreFailures = true
 ```
 
+It supports two output styles: xml and html, change it by set it to `false` or `true`:
+
+```
+xml.enabled = false
+html.enabled = true
+```
+You can parse xml format, put them into database for statics. Just use browser to open html file and review.
