@@ -34,7 +34,7 @@ To ensure that your code is valid and stable use check:
 
 ### How to use
 Download the project and move  the directory of **config** to the root directory
-of your project.and modify `app/build.gradle`，add this line in the bottom：
+of your project and modify `app/build.gradle`，add this line in the bottom：
 
 ```
 apply from: '../config/quality/quality.gradle'
