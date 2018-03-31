@@ -28,7 +28,9 @@
         <!-- Exclude because causes problems with SQL Strings that usually require duplication -->
         <exclude name="AvoidDuplicateLiterals"/>
     </rule>
-    <rule ref="rulesets/java/basic.xml" />
+    <rule ref="rulesets/java/basic.xml" >
+          <exclude name="CollapsibleIfStatements" />
+    </rule>
     <rule ref="rulesets/java/naming.xml">
         <exclude name="AbstractNaming" />
         <exclude name="LongVariable" />
